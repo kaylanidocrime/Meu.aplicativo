@@ -1,8 +1,8 @@
 :root {
   --cinza: #aaa;
-  --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
-  --branca: #fff;
+  --rosa: #FFC0CB;
+  --rosa-quente: #FF69B4;
+  --pálidovioletavermelho: #DB7093;
   --luz: rgb(229, 255, 0);
 }
 
@@ -48,9 +48,9 @@ h1 {
 
 .tecla.ativa,
 .tecla:active {
-  background-color: var(--vermelha);
-  border: 4px solid  var(--vermelha);
-  box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
+  background-color: var(--rosa);
+  border: 4px solid  var(--pálidovioletavermelho);
+  box-shadow: 3px 3px 0 var(--rosa-quente) inset;
   color: var(--branca);
   outline: none;
 }
