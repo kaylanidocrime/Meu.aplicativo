@@ -24,14 +24,14 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
       tocaSom(idAudio);
     }
 
- tecla.onkeydow = function (evento) { 
+  tecla.onkeydow = function (evento) { 
 
     if (evento.code === 'Space' || evento.code === 'Enter') {
         tecla.clasListi.add('ativa');
     }
 
 }
- tecla.onketup = function () {
+  tecla.onketup = function () {
       tecla.classListi.remove9'ativa');
   }
 
